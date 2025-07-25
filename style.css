@@ -605,262 +605,113 @@ section {
     background-color: black;
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .main {
-        height: auto;
-        min-height: 70vh;
-    }
 
-    nav>img {
-        z-index: 100;
-        width: 5.5rem;
-        height: 2.5rem;
-    }
 
-    nav {
-        margin-inline: 40px;
-        padding-block: 1rem;
-    }
+
+
+
+@media (max-width:361px) {
 
     .main>.content>h1 {
         font-size: 2.5rem;
-        padding-inline: 20px;
-        line-height: 48px;
-    }
-
-    .trending_now>h1 {
-        padding-inline: 40px;
-    }
-
-    section {
-        padding-inline: 40px;
-    }
-
-    .shows {
-        width: 100%;
-        gap: 0.5rem;
-        padding-inline: 0;
-    }
-
-    .card_container {
-        gap: 0.5rem;
-    }
-
-    .card_container>.cards {
-        width: 100%;
-        min-width: 200px;
-        height: 120px;
-    }
-
-    .footer {
-        max-width: 100%;
-        padding-inline: 20px;
-    }
-
-    .footer-links {
-        gap: 10px;
-    }
-}
-
-@media (max-width: 600px) {
-    .main {
-        height: auto;
-        min-height: 50vh;
-    }
-
-    nav {
-        margin-inline: 10px;
-        padding-block: 0.7rem;
-    }
-
-    nav>img {
-        width: 7rem;
-        height: 2rem;
-    }
-
-    .main>.content {
-        padding-inline: 5px;
-    }
-
-    .main>.content>h1 {
-        font-size: 1.5rem;
-        padding-inline: 5px;
-        line-height: 32px;
-        margin-top: 2rem;
-    }
-
-    .main>.content>h2 {
-        font-size: 1rem;
+        font-weight: 999;
+        padding-inline: 70px;
+        margin-bottom: 0rem;
+        line-height: 50px;
+        margin-top: 5.5rem;
     }
 
     .main>.content>h3 {
-        font-size: 0.9rem;
-        margin-top: 1rem;
-    }
-
-    .main>.content>form>input {
-        width: 60%;
-        font-size: 0.9rem;
-        padding: 0.4rem;
-    }
-
-    .main>.content>form>button {
-        font-size: 1rem;
-        padding-inline: 0.7rem;
-    }
-
-    .main>.content>form>button>.arrow {
-        font-size: 1rem;
-        margin-left: 0.7rem;
+        font-size: 1.0rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        padding-inline: 10px;
     }
 
     .trending_now>h1 {
-        font-size: 1.1rem;
-        padding-inline: 10px;
-        top: 10px;
-    }
-
-    section {
-        padding-inline: 5px;
-    }
-
-    .shows {
-        flex-direction: row;
-        overflow-x: auto;
-        gap: 0.5rem;
-        width: 100%;
-        padding-block: 1rem;
-    }
-
-    .shows>.img {
-        width: 100%;
-        height: 180px;
-        padding-inline: 0;
-        padding-block: 4px;
-    }
-
-    .img>img {
-        border-radius: 0.5rem;
-        width: 157px;
-        height: 196px;
-    }
-    .more_reasons>.reasons {
-    font-weight: 400;
-    font-size: 1.1rem;
-    }
-
-    .img>.number {
-        font-size: 4rem;
-        top: 140px;
-    }
-
-    .card_container {
-        flex-direction: column;
-        gap: 0.7rem;
-    }
-
-    .card_container>.cards {
-        width: 100%;
-        min-width: 150px;
-        height: auto;
-        padding: 0.7rem;
-    }
-
-    .card_container>.cards>h1 {
-        font-size: 1.1rem;
-    }
-
-    .card_container>.cards>.icons>.icon1,
-    .card_container>.cards>.icons>.icon2,
-    .card_container>.cards>.icons>.icon3,
-    .card_container>.cards>.icons>.icon4 {
-        width: 60px;
-        height: 40px;
-    }
-
-    .frequently_asked_questions>h1 {
-        font-size: 1.1rem;
-    }
-
-    .frequently_asked_questions>.questions>h2 {
-        font-size: 1rem;
-        padding-inline: 0.7rem;
-    }
-
-    .frequently_asked_questions>.questions {
-        font-size: 1rem;
-        height: 3rem;
-    }
-
-    .frequently_asked_questions>.questions>.plus {
-        font-size: 2rem;
-        padding-inline: 0.7rem;
-    }
-
-    .footer {
-        max-width: 100%;
-        padding-inline: 5px;
-    }
-
-    .footer>.form>h1 {
-        font-size: 0.9rem;
-    }
-
-    .footer>.form>form>input {
-        width: 60%;
-        font-size: 0.9rem;
-        padding: 0.4rem;
-    }
-
-    .footer>.form>form>button {
-        font-size: 1rem;
-        padding-inline: 0.7rem;
-    }
-
-    .footer>.form>form>button>.arrow {
-        font-size: 1rem;
-        margin-left: 0.7rem;
-    }
-
-    .footer-links {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
-        margin-bottom: 20px;
-    }
-
-    .footer-column {
-        gap: 7px;
-    }
-
-    .footer-link {
-        font-size: 12px;
-    }
-
-    .language-selector {
-        margin-bottom: 15px;
-    }
-
-    .netflix-logo {
-        font-size: 12px;
-    }
-
-    .empty {
-        height: 80px;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: 2.3rem;
+        padding-inline: 70px;
+        position: relative;
+        z-index: 100;
+        top: 30px;
     }
 }
 
-@media (max-width:886px) {
+
+@media (max-width:821px){
+    nav {
+    background: linear-gradient(to bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0));
+    margin-inline: 145px;
+    padding: 1.6rem 1px;
+    padding-block: 1.43rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .main>.content>form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    }
+
+    .main>.content>form>input {
+    width: 90%;
+    max-width: 500px;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    margin-right: 0rem;
+    background-color: rgba(0, 0, 0, 0.51);
+    height: 38.5px;
+    }
+
+    .main>.content>h1 {
+    font-size: 3.5rem;
+    font-weight: 999;
+    padding-inline: 70px;
+    margin-bottom: 1.5rem;
+    line-height: 60px;
+    margin-top: 3rem;
+    }
+
+}
+
+
+@media (max-width:541px) {
+
+   .main>.content>h1 {
+        font-size: 3.0rem;
+        font-weight: 999;
+        padding-inline: 70px;
+        margin-bottom: 3rem;
+        line-height: 55px;
+        margin-top: 3rem;
+    }
+
+    nav {
+        margin-inline: 0px;
+        padding-inline: 10px;
+    }
 
     .main>.content>form {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        gap: 10px;
     }
 
     .main>.content>form>input {
-        width: 87%;
+        width: 72%;
         max-width: 500px;
         padding: 0.5rem;
         padding-left: 1rem;
@@ -868,33 +719,168 @@ section {
         border: 1px solid rgba(255, 255, 255, 0.5);
         border-radius: 0.3rem;
         font-size: 1rem;
-        margin-right: 0px;
+        margin-right: 0.5rem;
         background-color: rgba(0, 0, 0, 0.51);
         height: 38.5px;
-        margin-bottom: 1rem;
     }
 
-    .main {
-        height: auto;
-        min-height: 86vh;
+    .footer>.form>form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 3rem;
+        flex-direction: column;
+        gap: 10px;
     }
+
+    .footer>.form>form>input {
+        width: 100%;
+        max-width: 500px;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        margin-right: 0.5rem;
+        background-color: rgba #00000082 (0, 0, 0, 0.51);
+        height: 38.5px;
+    }
+
+    footer>.form>form>button {
+        background: rgb(227, 0, 0);
+        color: white;
+        border: none;
+        font-size: 1.3rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        cursor: pointer;
+        padding-inline: 1.2rem;
+        padding-block: 0.258rem;
+        border-radius: 0.3rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .frequently_asked_questions>.questions>h2 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-inline: 0.9rem;
+    }
+
+    .frequently_asked_questions>.questions>.plus {
+        padding-inline: 1.0rem;
+        font-size: 2rem;
+        font-weight: 200;
+        font-family: auto;
+    }
+}
+
+
+@media (max-width:913px){
+    .card_container {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    }
+    .trending_now>h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2.3rem;
+    padding-inline: 48px;
+    position: relative;
+    z-index: 100;
+    top: 30px;
+    }
+    .main>.content>h1 {
+    font-size: 3.5rem;
+    font-weight: 999;
+    padding-inline: 70px;
+    margin-bottom: 2rem;
+    line-height: 50px;
+    margin-top: 5rem;
+    }
+}
+
+
+@media (max-width:1025px) {
+    section {
+        padding-inline: 45px;
+    }
+
+    .footer {
+        margin-inline: 45px;
+    }
+      .trending_now>h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2.3rem;
+    padding-inline: 48px;
+    position: relative;
+    z-index: 100;
+    top: 30px;
+    }
+}
+
+@media (max-width:821px){
+    .main>.content>h1 {
+        font-size: 3.5rem;
+        font-weight: 999;
+        padding-inline: 70px;
+        margin-bottom: 2rem;
+        line-height: 50px;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width:886px){
+    .main>.content>form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.main>.content>form>input {
+    width: 88%;
+    max-width: 500px;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    margin-right: 0.0rem;
+    background-color: rgba(0, 0, 0, 0.51);
+    height: 38.5px;
+}
 
 }
 
-@media(max-width:822px) {
-    .main>.content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        z-index: 100;
-        width: 450px;
-    }
+@media (max-width:391px){
+    .main>.content>h3 {
+    font-size: 1.0rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    padding-inline: 20px;
+}
 
-    .main>.content>h1 {
-        font-size: 2.4rem;
-        padding-inline: 0px;
-        line-height: 48px;
+    .main>.content>form>input {
+        width: 80%;
+        max-width: 500px;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        color: white;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        margin-right: 0.0rem;
+        background-color: rgba(0, 0, 0, 0.51);
+        height: 38.5px;
     }
 }
